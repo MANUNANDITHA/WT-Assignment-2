@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Registration</h2>
+
+    <form id="form">
+        <label>Student Name</label>
+        <input type="text" id="name" required>
+
+        <label>Roll Number</label>
+        <input type="text" id="roll" required>
+
+        <label>Email</label>
+        <input type="email" id="email" required>
+
+        <label>Course</label>
+        <select id="course" required>
+            <option value="">Select Course</option>
+            <option>BCA</option>
+            <option>B.Sc Computer Science</option>
+            <option>B.Tech</option>
+            <option>MCA</option>
+        </select>
+
+        <label>Password</label>
+        <input type="password" id="password" required>
+
+        <label>Upload Document</label>
+        <input type="file" id="file"
+               accept=".pdf,.jpg,.png">
+
+        <p id="message"></p>
+
+        <button type="submit">Register</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

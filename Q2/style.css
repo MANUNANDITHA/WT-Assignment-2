@@ -1,0 +1,22 @@
+body { font-family: Arial, sans-serif; background: #f2f5fa; margin: 0; padding: 20px; }
+.container { max-width: 900px; margin: auto; }
+h1 { color: #2457d6; }
+.box { background: #fff; padding: 20px; margin-bottom: 20px; border-radius: 8px;
+       box-shadow: 0 2px 8px #0001; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input, select { width: 100%; box-sizing: border-box; padding: 10px; margin-top: 5px;
+       border: 1px solid #bbb; border-radius: 5px; }
+.btn, button { display: inline-block; background: #2457d6; color: #fff; border: 0;
+       padding: 9px 16px; border-radius: 5px; text-decoration: none; cursor: pointer;
+       font-size: 14px; }
+.btn.red, button.red { background: #c62828; }
+.btn.grey { background: #6b7685; }
+table { width: 100%; border-collapse: collapse; }
+th, td { padding: 10px; border: 1px solid #ddd; text-align: left; }
+th { background: #e8eefb; }
+.msg { padding: 10px 14px; border-radius: 5px; margin-bottom: 15px; }
+.ok  { background: #e6f4ea; color: #1e6b34; }
+.err { background: #fdecea; color: #b42318; }
+img.profile { max-width: 160px; border-radius: 8px; border: 1px solid #ddd; }
+form.inline { display: inline; }
+@media (max-width: 600px) { .box { overflow-x: auto; } }
